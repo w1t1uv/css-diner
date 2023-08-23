@@ -22,3 +22,106 @@ body {
 }
 
 /*base styles end*/
+
+/*header styles start*/
+
+.header {
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    color: #8aa57c;
+    padding: 7px 0 0 7px;
+}
+
+/*header styles end*/
+
+/*what-to-do styles start*/
+
+.what-to-do {
+    font-weight: 700;
+    font-size: 46px;
+    color: #8aa57c;
+    text-align: center;
+    padding-top: 55px;
+    margin: 0 0 100px 0;
+}
+
+/*what-to-do styles end*/
+
+/*layout simulation styles start*/
+
+.code-view-wrapper {
+    display: flex;
+    background: #3f4e39;
+    width: 870px;
+    margin: 0 auto;
+}
+
+.css-editor {
+    width: 435px;
+    padding: 5px 0 10px 10px;
+}
+
+.html-viewer {
+    width: 435px;
+    padding: 5px 10px 10px 0;
+}
+
+.css-wrapper,
+.html-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #f3f6f4;
+    padding: 0 0 0 7px;
+    margin: 5px 0 0 0;
+    color: #8aa57c;
+    font-size: 13px;
+}
+
+.css-entry-field {
+    display: flex;
+}
+
+.css-line-numbering {
+    padding: 15px 5px 5px 10px;
+    background: #a5c098;
+    color: #3f4e39;
+}
+
+.html-line-numbering {
+    padding: 15px 5px 5px 10px;
+    color: #3f4e39;
+}
+
+.input-wrapper {
+    padding: 15px 0 0 10px;
+    background: #a5c098;
+    width: 100%;
+    color: #3f4e39;
+}
+
+.css-input {
+    background: #a5c098;
+    color: #3f4e39;
+    outline: none;
+    border: none;
+}
+
+.css-input::-webkit-input-placeholder {
+    color: #3f4e39;
+}
+
+.css-input::-moz-placeholder {
+    color: #3f4e39;
+}
+
+.code-display {
+    background: #a5c098;
+    width: 100%;
+}
+
+.file-name {
+    padding-right: 5px;
+}
+
+/*layout simulation styles end*/
