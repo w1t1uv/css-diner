@@ -50,6 +50,11 @@ body {
 
 /*layout simulation styles start*/
 
+.main {
+    float: left;
+    width: 75%;
+}
+
 .code-view-wrapper {
     display: flex;
     background: #3f4e39;
@@ -140,3 +145,66 @@ body {
 }
 
 /*layout simulation styles end*/
+
+/*aside styles start*/
+
+.levels {
+    float: right;
+    min-height: 100vh;
+    background: #3f4e39;
+    width: 25%;
+}
+
+.levels-title {
+    color: #f3f6f4;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 20px 0 35px 25px;
+}
+
+.level-numbers {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 65px;
+}
+
+.number {
+    margin: 0 0 30px 0;
+    color: #f3f6f4;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.help-button {
+    cursor: pointer;
+    background: #f3f6f4;
+    outline: none;
+    border: 3px #8aa57c solid;
+    border-radius: 5px;
+    color: #8aa57c;
+    margin: 0 0 0 20px;
+    width: 75px;
+    height: 35px;
+}
+
+.reset-button {
+    cursor: pointer;
+    background: #f3f6f4;
+    outline: none;
+    border: 3px #8aa57c solid;
+    border-radius: 5px;
+    color: #8aa57c;
+    margin: 0 0 0 30px;
+    width: 75px;
+    height: 35px;
+}
+
+/*aside styles end*/
+
+/*footer styles start*/
+
+.school-logo {
+    width: 100px;
+}
+
+/*footer styles end*/

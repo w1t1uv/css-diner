@@ -19,72 +19,76 @@
     <title>CSS Diner</title>
 </head>
 <body>
-<header class="header">CSS Diner</header>
-<div class="what-to-do">Select the plates</div>
-<section class="layout-simulation"></section>
-<div class="code-view-wrapper">
-    <section class="css-editor">
-        <div class="css-wrapper">
-            <p class="css-title">CSS Editor</p>
-            <p class="file-name">style.css</p>
-        </div>
-        <div class="css-entry-field">
-            <div class="css-line-numbering">
-                1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 <br>
-                11 <br> 12 <br> 13 <br> 14 <br> 15 <br> 16 <br> 17 <br> 18 <br> 19 <br> 20
+<main class="main">
+    <header class="header">CSS Diner</header>
+    <div class="what-to-do">Select the plates</div>
+    <section class="layout-simulation"></section>
+    <div class="code-view-wrapper">
+        <section class="css-editor">
+            <div class="css-wrapper">
+                <p class="css-title">CSS Editor</p>
+                <p class="file-name">style.css</p>
             </div>
-            <div class="input-wrapper">
-                <div class="sending-wrapper">
-                    <input type="text" name="input" class="css-input" placeholder="Type in a CSS selector">
-                    <button class="enter-button">enter</button>
+            <div class="css-entry-field">
+                <div class="css-line-numbering">
+                    1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 <br>
+                    11 <br> 12 <br> 13 <br> 14 <br> 15 <br> 16 <br> 17 <br> 18 <br> 19 <br> 20
                 </div>
-                <div>
-                    { <br> /* Styles would go here. */ <br> }
-                </div>
-                <br>
-                <div>
-                    /* <br> Type a number to skip to a level. <br> Ex → "5" for level 5 <br> */
+                <div class="input-wrapper">
+                    <div class="sending-wrapper">
+                        <input type="text" name="input" class="css-input" placeholder="Type in a CSS selector">
+                        <button class="enter-button">enter</button>
+                    </div>
+                    <div>
+                        { <br> /* Styles would go here. */ <br> }
+                    </div>
+                    <br>
+                    <div>
+                        /* <br> Type a number to skip to a level. <br> Ex → "5" for level 5 <br> */
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="html-viewer">
-        <div class="html-wrapper">
-            <p class="html-title">HTML Viewer</p>
-            <p class="file-name">table.html</p>
-        </div>
-        <div class="code-display">
-            <div class="html-line-numbering">
-                1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 <br>
-                11 <br> 12 <br> 13 <br> 14 <br> 15 <br> 16 <br> 17 <br> 18 <br> 19 <br> 20
+        </section>
+        <section class="html-viewer">
+            <div class="html-wrapper">
+                <p class="html-title">HTML Viewer</p>
+                <p class="file-name">table.html</p>
             </div>
+            <div class="code-display">
+                <div class="html-line-numbering">
+                    1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 <br>
+                    11 <br> 12 <br> 13 <br> 14 <br> 15 <br> 16 <br> 17 <br> 18 <br> 19 <br> 20
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <p>Made by <a href="https://github.com/w1t1uv">@w1t1uv</a>!</p>
+            <p>2023</p>
+            <a href="https://rs.school/js/" class="link-course">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="RS School" class="school-logo">
+            </a>
         </div>
-    </section>
-</div>
+    </footer>
+</main>
 <aside class="levels">
-    <p>Level</p>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-    <div>10</div>
+    <p class="levels-title">Levels</p>
+    <div class="level-numbers">
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+        <div class="number">6</div>
+        <div class="number">7</div>
+        <div class="number">8</div>
+        <div class="number">9</div>
+        <div class="number">10</div>
+    </div>
     <button class="help-button">Help</button>
     <button class="reset-button">Reset</button>
 </aside>
-<footer class="footer">
-    <div class="footer-wrapper">
-        <p>Made by <a href="https://github.com/w1t1uv">@w1t1uv</a>!</p>
-        <p>2023</p>
-        <a href="https://rs.school/js/" class="link-course">
-            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School">
-        </a>
-    </div>
-</footer>
 <script src="./public/bundle.js"></script>
 </body>
 </html>
