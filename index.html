@@ -5,22 +5,73 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
     <title>CSS Diner</title>
 </head>
 <body>
 <header class="header">CSS Diner</header>
 <div class="what-to-do">Select the plates</div>
 <section class="layout-simulation"></section>
-<section class="css-editor"></section>
-<section class="html-viewer"></section>
+<div class="code-view-wrapper">
+    <section class="css-editor">
+        <p class="css-title">CSS Editor</p>
+        <p class="file-name">style.css</p>
+        <div class="css-entry-field">
+            <div class="css-line-numbering">
+                1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 <br>
+                11 <br> 12 <br> 13 <br> 14 <br> 15 <br> 16 <br> 17 <br> 18 <br> 19 <br> 20
+            </div>
+            <input type="text" name="input" class="css-input" placeholder="Type in a CSS selector">
+            <div>
+                { <br> /* Styles would go <br> here. */ <br> }
+            </div>
+            <div>
+                /* <br> Type a number to skip <br> to a level. <br> Ex → "5" for level 5 <br> */
+            </div>
+        </div>
+    </section>
+    <section class="html-viewer">
+        <p class="html-title">HTML Viewer</p>
+        <p class="file-name">table.html</p>
+        <div class="html-line-numbering">
+            1 <br> 2 <br> 3 <br> 4 <br> 5 <br> 6 <br> 7 <br> 8 <br> 9 <br> 10 <br>
+            11 <br> 12 <br> 13 <br> 14 <br> 15 <br> 16 <br> 17 <br> 18 <br> 19 <br> 20
+        </div>
+    </section>
+</div>
 <aside class="levels">
+    <p>Level</p>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
     <button class="help-button">Help</button>
     <button class="reset-button">Reset</button>
 </aside>
 <footer class="footer">
-    <p>Made by <a href="https://github.com/w1t1uv">@w1t1uv</a>!</p>
-    <p>2023</p>
-    <img src="https://rs.school/images/rs_school_js.svg" alt="RS School">
+    <div class="footer-wrapper">
+        <p>Made by <a href="https://github.com/w1t1uv">@w1t1uv</a>!</p>
+        <p>2023</p>
+        <a href="https://rs.school/js/" class="link-course">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RS School">
+        </a>
+    </div>
 </footer>
 <script src="./public/bundle.js"></script>
 </body>
