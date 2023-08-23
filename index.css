@@ -124,4 +124,19 @@ body {
     padding-right: 5px;
 }
 
+.sending-wrapper {
+    display: flex;
+}
+
+.enter-button {
+    margin-left: 185px;
+    cursor: pointer;
+    background: #eeeeee;
+    outline: none;
+    border: #999999 solid;
+    border-radius: 2px;
+    border-width: 1px 1px 5px 1px;
+    color: #999999;
+}
+
 /*layout simulation styles end*/
