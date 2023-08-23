@@ -203,6 +203,33 @@ body {
 
 /*footer styles start*/
 
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info {
+    color: #f3f6f4;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 0 0 15px;
+}
+
+.author-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.year {
+    color: #f3f6f4;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.link-course {
+    padding: 0 15px 0 0;
+}
+
 .school-logo {
     width: 100px;
 }
