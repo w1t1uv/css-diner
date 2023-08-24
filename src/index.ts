@@ -1,1 +1,3 @@
-console.log('Hello');
+import {initLevel} from './init/level';
+
+initLevel();
