@@ -117,7 +117,7 @@ body {
     display: flex;
     background: #3f4e39;
     width: 870px;
-    margin: 0 auto;
+    margin: 0 auto 70px auto;
 }
 
 .css-editor {
@@ -161,6 +161,7 @@ body {
     background: #a5c098;
     width: 100%;
     color: #3f4e39;
+    letter-spacing: 0.1em;
 }
 
 .css-input {
@@ -179,6 +180,7 @@ body {
 }
 
 .code-display {
+    display: flex;
     background: #a5c098;
     width: 100%;
 }
@@ -202,12 +204,22 @@ body {
     color: #999999;
 }
 
+.markup {
+    padding: 15px 0 0 10px;
+    background: #a5c098;
+    width: 100%;
+    color: #3f4e39;
+    letter-spacing: 0.1em;
+}
+
 /*layout simulation styles end*/
 
 /*aside styles start*/
 
 .levels {
-    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
     min-height: 100vh;
     background: #3f4e39;
     width: 25%;
