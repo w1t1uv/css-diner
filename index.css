@@ -50,6 +50,64 @@ body {
 
 /*layout simulation styles start*/
 
+.layout-simulation {
+    margin: 0 0 100px 0;
+}
+
+.table {
+    width: 330px;
+    height: 0;
+    margin: 0 auto;
+    border-bottom: 100px solid #8aa57c;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.table-second-level {
+    width: 430px;
+}
+
+.side-of-the-table {
+    width: 330px;
+    height: 0;
+    margin: 0 auto;
+    border-bottom: 15px solid #5b6f54;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transform: rotate(0.5turn);
+}
+
+.side-of-the-table-second-level {
+    width: 430px;
+}
+
+.elements-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plate {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to top right, #c4cbc1 50%, #eeeeee 50%);
+    border-radius: 80px;
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.3);
+    margin: 7px 0 0 0;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #5b6f54;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    margin: 11px 0 0 0;
+}
+
 .main {
     float: left;
     width: 75%;
@@ -199,6 +257,12 @@ body {
     height: 35px;
 }
 
+.selectedLevel {
+    background: #6c7569;
+    padding: 7px;
+    border-radius: 7px;
+}
+
 /*aside styles end*/
 
 /*footer styles start*/
@@ -235,3 +299,15 @@ body {
 }
 
 /*footer styles end*/
+
+/*markup styles start*/
+
+.plate-markup {
+    padding-left: 20px;
+}
+
+.triangle-markup {
+    padding-left: 40px;
+}
+
+/*markup styles end*/
