@@ -95,6 +95,10 @@ body {
     width: 530px;
 }
 
+.table-tenth-level {
+    width: 630px;
+}
+
 .side-of-the-table {
     width: 330px;
     height: 0;
@@ -135,6 +139,10 @@ body {
 
 .side-of-the-table-ninth-level {
     width: 530px;
+}
+
+.side-of-the-table-tenth-level {
+    width: 630px;
 }
 
 .elements-wrapper {

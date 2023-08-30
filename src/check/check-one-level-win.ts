@@ -8,6 +8,7 @@ import {sixthLevelCreator} from '../creator/sixth-level-creator';
 import {seventhLevelCreator} from '../creator/seventh-level-creator';
 import {eighthLevelCreator} from '../creator/eighth-level-creator';
 import {ninthLevelCreator} from '../creator/ninth-level-creator';
+import {tenthLevelCreator} from '../creator/tenth-level-creator';
 
 export function checkOneLevelWin() {
     const input = document.querySelector<HTMLInputElement>('.css-input');
@@ -39,9 +40,9 @@ export function checkOneLevelWin() {
                 else if (currentLevelObject.currentLevel === 7) {
                     ninthLevelCreator();
                 }
-                // if (currentLevelObject.currentLevel === 8) {
-                //     tenthLevelCreator();
-                // }
+                else if (currentLevelObject.currentLevel === 8) {
+                    tenthLevelCreator();
+                }
             }
         });
     }
