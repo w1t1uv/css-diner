@@ -2,6 +2,8 @@ import {initLevel} from './init/init-level';
 import {firstLevelCreator} from './creator/first-level-creator';
 import {secondLevelCreator} from './creator/second-level-creator';
 import {thirdLevelCreator} from './creator/third-level-creator';
+import {fourthLevelCreator} from './creator/fourth-level-creator';
+import {fifthLevelCreator} from './creator/fifth-level-creator';
 import {checkOneLevelWin} from './check/check-one-level-win';
 
 interface ICurrentLevel {
@@ -26,6 +28,12 @@ function loadLevel() {
     }
     if (storageLevel === '3') {
         thirdLevelCreator();
+    }
+    if (storageLevel === '4') {
+        fourthLevelCreator();
+    }
+    if (storageLevel === '5') {
+        fifthLevelCreator();
     }
 }
 
