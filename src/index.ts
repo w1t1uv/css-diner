@@ -7,6 +7,7 @@ import {fifthLevelCreator} from './creator/fifth-level-creator';
 import {sixthLevelCreator} from './creator/sixth-level-creator';
 import {checkOneLevelWin} from './check/check-one-level-win';
 import {seventhLevelCreator} from './creator/seventh-level-creator';
+import {eighthLevelCreator} from './creator/eighth-level-creator';
 
 interface ICurrentLevel {
     currentLevel: number;
@@ -42,6 +43,9 @@ function loadLevel() {
     }
     if (storageLevel === '7') {
         seventhLevelCreator();
+    }
+    if (storageLevel === '8') {
+        eighthLevelCreator();
     }
 }
 

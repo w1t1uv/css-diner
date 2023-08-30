@@ -87,6 +87,10 @@ body {
     width: 570px;
 }
 
+.table-eighth-level {
+    width: 630px;
+}
+
 .side-of-the-table {
     width: 330px;
     height: 0;
@@ -119,6 +123,10 @@ body {
 
 .side-of-the-table-seventh-level {
     width: 570px;
+}
+
+.side-of-the-table-eighth-level {
+    width: 630px;
 }
 
 .elements-wrapper {
@@ -162,6 +170,13 @@ body {
 }
 
 .triangle-sixth-level {
+    border-bottom: 80px solid #5b6f54;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    margin: 7px 0 0 0;
+}
+
+.triangle-eighth-level {
     border-bottom: 80px solid #5b6f54;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
