@@ -83,6 +83,10 @@ body {
     width: 530px;
 }
 
+.table-seventh-level {
+    width: 570px;
+}
+
 .side-of-the-table {
     width: 330px;
     height: 0;
@@ -111,6 +115,10 @@ body {
 
 .side-of-the-table-sixth-level {
     width: 530px;
+}
+
+.side-of-the-table-seventh-level {
+    width: 570px;
 }
 
 .elements-wrapper {
@@ -230,6 +238,10 @@ body {
 
 .oval-sixth-level {
     margin: 17px auto;
+}
+
+.oval-small-seventh-level {
+    margin: 29px 0;
 }
 
 .main {
