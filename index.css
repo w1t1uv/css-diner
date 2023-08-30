@@ -153,6 +153,13 @@ body {
     margin: 23px 0 0 0;
 }
 
+.triangle-sixth-level {
+    border-bottom: 80px solid #5b6f54;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    margin: 7px 0 0 0;
+}
+
 .box {
     width: 80px;
     height: 80px;
@@ -215,6 +222,14 @@ body {
     -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.3);
     margin: 23px auto;
+}
+
+.oval-small-sixth-level {
+    margin: 23px 0;
+}
+
+.oval-sixth-level {
+    margin: 17px auto;
 }
 
 .main {
