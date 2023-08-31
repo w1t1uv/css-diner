@@ -23,6 +23,10 @@ interface IUseTheClue {
     useTheClue: boolean;
 }
 
+interface ICompletedLevels {
+    completedLevels: number;
+}
+
 let isGameOver = false;
 let levelWin = false;
 
@@ -32,6 +36,10 @@ export const currentLevelObject: ICurrentLevel = {
 
 export const useTheClueObject: IUseTheClue = {
     useTheClue: false
+};
+
+export const completedLevelsObject: ICompletedLevels = {
+    completedLevels: 0
 };
 
 function loadLevel() {
