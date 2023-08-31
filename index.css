@@ -399,7 +399,7 @@ body {
     margin: 20px 0 35px 25px;
 }
 
-.level-numbers {
+.level-numbers-and-checks {
     display: flex;
     flex-direction: column;
     padding: 0 0 0 65px;
@@ -440,6 +440,66 @@ body {
     background: #6c7569;
     padding: 7px;
     border-radius: 7px;
+}
+
+.check-wrapper {
+    display: flex;
+}
+
+.check {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    transform: rotate(45deg);
+    margin: 0 0 0 25px;
+}
+
+.tenth-check {
+    margin: 0 0 0 15px;
+}
+
+.first-part-of-first-check,
+.first-part-of-second-check,
+.first-part-of-third-check,
+.first-part-of-fourth-check,
+.first-part-of-fifth-check,
+.first-part-of-sixth-check,
+.first-part-of-seventh-check,
+.first-part-of-eighth-check,
+.first-part-of-ninth-check,
+.first-part-of-tenth-check {
+    position: absolute;
+    width: 5px;
+    height: 31px;
+    background: #bfd5be;
+    left: 11px;
+    bottom: 5px;
+}
+
+.second-part-of-first-check,
+.second-part-of-second-check,
+.second-part-of-third-check,
+.second-part-of-fourth-check,
+.second-part-of-fifth-check,
+.second-part-of-sixth-check,
+.second-part-of-seventh-check,
+.second-part-of-eighth-check,
+.second-part-of-ninth-check,
+.second-part-of-tenth-check {
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: #bfd5be;
+    left: 3px;
+    top: 12px;
+}
+
+.successfully {
+    background: #aadb3b;
+}
+
+.clue-used {
+    background: #e06666;
 }
 
 /*aside styles end*/
