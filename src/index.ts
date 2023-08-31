@@ -13,6 +13,7 @@ import {tenthLevelCreator} from './creator/tenth-level-creator';
 import {checkOneLevelWinVirtualEnter} from './check/check-one-level-win-virtual-enter';
 import {promptCall} from './call/prompt-call';
 import {initPassingTheLevel} from './init/passing-the-level';
+import {colorTheCheck} from './call/color-the-check';
 
 interface ICurrentLevel {
     currentLevel: number;
@@ -74,4 +75,5 @@ loadLevel();
 checkOneLevelWin();
 checkOneLevelWinVirtualEnter();
 promptCall();
+colorTheCheck();
 
