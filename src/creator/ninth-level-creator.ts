@@ -1,4 +1,4 @@
-import {currentLevelObject} from './index';
+import {currentLevelObject} from '../index';
 
 export function ninthLevelCreator() {
     currentLevelObject.currentLevel = 8;
