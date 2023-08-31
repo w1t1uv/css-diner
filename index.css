@@ -287,6 +287,32 @@ body {
     margin: 0 auto 70px auto;
 }
 
+@keyframes swing {
+    15% {
+        transform: translateX(13px);
+    }
+    30% {
+        transform: translateX(-13px);
+    }
+    40% {
+        transform: translateX(9px);
+    }
+    50% {
+        transform: translateX(-9px);
+    }
+    65% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.swing {
+    animation: swing 0.7s ease;
+    animation-iteration-count: 1;
+}
+
 .css-editor {
     width: 435px;
     padding: 5px 0 10px 10px;
