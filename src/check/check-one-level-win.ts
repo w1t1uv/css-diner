@@ -18,30 +18,31 @@ export function checkOneLevelWin() {
             if (event.code === 'Enter' && this.value === levels[currentLevelObject.currentLevel].correctAnswer) {
                 if (currentLevelObject.currentLevel === 0) {
                     secondLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 1) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 1) {
                     thirdLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 2) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 2) {
                     fourthLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 3) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 3) {
                     fifthLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 4) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 4) {
                     sixthLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 5) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 5) {
                     seventhLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 6) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 6) {
                     eighthLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 7) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 7) {
                     ninthLevelCreator();
-                }
-                else if (currentLevelObject.currentLevel === 8) {
+                    this.value = '';
+                } else if (currentLevelObject.currentLevel === 8) {
                     tenthLevelCreator();
+                    this.value = '';
                 }
             }
         });
