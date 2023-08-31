@@ -12,6 +12,7 @@ import {ninthLevelCreator} from './creator/ninth-level-creator';
 import {tenthLevelCreator} from './creator/tenth-level-creator';
 import {checkOneLevelWinVirtualEnter} from './check/check-one-level-win-virtual-enter';
 import {promptCall} from './call/prompt-call';
+import {initPassingTheLevel} from './init/passing-the-level';
 
 interface ICurrentLevel {
     currentLevel: number;
@@ -68,6 +69,7 @@ function loadLevel() {
 }
 
 initLevel();
+initPassingTheLevel();
 loadLevel();
 checkOneLevelWin();
 checkOneLevelWinVirtualEnter();
