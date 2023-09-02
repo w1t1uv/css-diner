@@ -29,9 +29,6 @@ interface ICompletedLevels {
     completedLevels: number;
 }
 
-let isGameOver = false;
-let levelWin = false;
-
 export const currentLevelObject: ICurrentLevel = {
     currentLevel: 0
 };
