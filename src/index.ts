@@ -14,6 +14,8 @@ import {checkOneLevelWinVirtualEnter} from './check/check-one-level-win-virtual-
 import {promptCall} from './call/prompt-call';
 import {initPassingTheLevel} from './init/passing-the-level';
 import {colorTheCheck} from './call/color-the-check';
+import {initCompletedLevels} from './init/init-completed-levels';
+import {winCheck} from './check/win-check';
 
 interface ICurrentLevel {
     currentLevel: number;
@@ -79,9 +81,11 @@ function loadLevel() {
 
 initLevel();
 initPassingTheLevel();
+initCompletedLevels();
 loadLevel();
 checkOneLevelWin();
 checkOneLevelWinVirtualEnter();
 promptCall();
 colorTheCheck();
+winCheck();
 
